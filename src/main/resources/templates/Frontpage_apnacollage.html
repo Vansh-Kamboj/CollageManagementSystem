@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+   <head>
+      <title>ApnaCollage</title>
+<link rel="stylesheet" href="Frontpage_apnacollage.css" type="text/css">
+   </head>
+   <body>
+<!---------- Meta HTML Ends --------->
+<!---------- Logo HTML Starts --------->
+<center><h1 style="height:40px;color:red;background-color:powderblue;" >Welcome TO APNACOLLAGE , Haryana(Karnal)</h1></center>
+<div class="container">
+<center><img src="" th:src="@{/images/Apnacollage.jpg}" alt=""class="normal"/></center>
+</div>
+<!---------- Logo HTML Ends --------->
+<!---------- Main Menu HTML Starts --------->
+<nav>
+   <div class="container"> 
+      <a href="#">Home</a> 
+      <a href="/teachers">Teachers </a> 
+      <a href="/students">StutendsInfo</a> 
+      <a href="/students/new">New Admission</a> 
+      <a href="#">Notice Board</a> 
+      <a href="#">Events</a>
+      <a href="#">Contact us</a> 
+   </div>
+</nav>
+<!---------- Main Menu HTML Ends --------->
+<!---------- Slider HTML Starts --------->
+
+<!---------- Slider HTML Ends --------->
+<!---------- News, Event, Notice Board HTML Starts --------->
+<div class="container">
+<div class="main-section">
+   <!---------- News Section --------->
+   <div class="event">
+      <h2 class="heading">Campus News</h2>
+      <div>
+         <marquee direction="up" scrollamount="7" style="height:400px;">
+            <ul>
+              
+               <li><img src="images/bulletpoint.png" class="logo"/> Experience our advanced laboratories and research centers, equipped with cutting-edge technology and equipment, empowering students to engage in hands-on learning and groundbreaking research.</li>
+               <li><img src="images/bulletpoint.png" class="logo"/> Explore the future of education at our college through our campus news articles, where we share insights into new programs, innovative teaching methodologies, and collaborations that will drive our institution's progress</li>
+               <li><img src="images/bulletpoint.png" class="logo"/> Explore our sprawling campus, nestled in a picturesque setting, featuring lush green gardens, state-of-the-art facilities, and modern architecture that fosters a vibrant and conducive learning environment</li>
+               <li><img src="images/bulletpoint.png" class="logo"/>Discover our well-equipped library, stocked with an extensive collection of books, journals, and digital resources, providing students with a rich academic and research experience.</li>
+               <li><img src="images/bulletpoint.png" class="logo"/>Immerse yourself in our innovative learning spaces, featuring smart classrooms, collaborative study areas, and multimedia-equipped lecture halls, designed to enhance interactive and engaging academic experiences.</li>
+              </ul>
+         </marquee>
+      </div>
+   </div>
+   <!---------- Event Section --------->
+   <div class="event">
+      <h2 class="heading">Events</h2>
+      <div>
+         <marquee direction="up" scrollamount="7" style="height:400px;">
+            <ul>
+                <li><img src="images/bulletpoint.png" class="logo"/> "We are going to organize an Orientation Day to welcome new students and provide them with essential information about the college and its resources.".</li>
+               <li><img src="images/bulletpoint.png" class="logo"/> "Get ready for an exhilarating Annual College Fest filled with cultural performances, technical competitions, and sports events!"</li>
+               <li><img src="images/bulletpoint.png" class="logo"/> Mark your calendars for the upcoming Career Fair, where you will have the opportunity to connect with top companies and explore internship and job opportunities</li>
+               <li><img src="images/bulletpoint.png" class="logo"/> "Enhance your skills and knowledge by participating in our upcoming workshops and seminars, covering a range of topics such as entrepreneurship, leadership, and industry trends."</li>
+               <li><img src="images/bulletpoint.png" class="logo"/>"Gear up for thrilling sports events, including inter-college tournaments and friendly matches, where you can showcase your athletic abilities and team spirit."</li>
+                </ul>
+         </marquee>
+      </div>
+   </div>
+   <!---------- Notice Board Section --------->
+   <div class="event">
+      <h2 class="heading">Notice Boards</h2>
+      <div>
+         <marquee direction="up" scrollamount="7" style="height:400px;">
+            <ul>
+               <li><img src="images/bulletpoint.png" class="logo"/>Exams are starting in next week.</li>
+               <li><img src="images/bulletpoint.png" class="logo"/>Results will be shown in first week of next month</li>
+               <li><img src="images/bulletpoint.png" class="logo"/>The new function is going to be held in july</li>
+               <li><img src="images/bulletpoint.png" class="logo"/> Please Maintain proper discipline inside campus</li>
+               <li><img src="images/bulletpoint.png" class="logo"/> The Student having attendance below 50% will be debared </li>
+               </ul>
+         </marquee>
+      </div>
+   </div>
+</div>
+<!---------- News, Event, Notice Board HTML Ends --------->
+<!---------- About Us HTML Starts --------->
+<div class="main-section about-us">
+   <img src="images/Chairman.png" logo="ch_n" >
+   <div>
+      <h2 class="heading">About Our Chairman</h2>
+      <p> As a visionary, our Chairman possesses the remarkable ability to see beyond the present and envision a future filled with possibilities. They have set a clear and compelling direction for our college, igniting a shared sense of purpose and driving us towards unparalleled excellence.
+
+At the heart of our Chairman's vision is a steadfast commitment to academic excellence. They continuously raise the bar, challenging our faculty, staff, and students to reach new heights of achievement. With an unwavering focus on delivering the highest quality education, our Chairman ensures that our college remains at the forefront of innovation, equipping our graduates with the skills and knowledge needed to thrive in a rapidly evolving world. </p>
+   </div>
+</div>
+<!---------- About Us HTML Ends --------->
+
+<!---------- Testimonial HTML Starts --------->
+<div class="main-section">
+   <h2 class="heading">What Student Say's About Courses</h2>
+   <marquee scrollamount="7">
+      <div class="testimonial">
+         <div class="testimonial-text"> I am privileged to be a <br>student at this remarkable college,<br>
+          where excellence and personal growth<br> are at the heart of everything we do.<br>
+           From the moment I stepped onto campus,<br> I knew I had found my second home.<br>
+         </div>
+         <div class="testimonial-detail">
+            <div class="testimonial-img"> <img src="images/StudentAnimated.png" logo="normal"> </div>
+            <div class="testimonial-name">
+               <h5>Rohit</h5>
+               <p>Web Devloper</p>
+            </div>
+         </div>
+      </div>
+      <div class="testimonial">
+         <div class="testimonial-text"> The faculty here are not just knowledgeable and experienced<br>
+         but they genuinely care about our success. <br>They go above and beyond to ensure that<br> we receive the best education possible.<br>
+          Their passion for teaching is infectious,<br> making every lecture engaging and inspiring.<br>
+           The support and guidance I have received<br> from my professors have been invaluable,<br>
+          shaping not only my academic journey but <br>also my personal and professional development.<br>
+         </div>
+         <div class="testimonial-detail">
+            <div class="testimonial-img"> <img src="images/StudentAnimated.png" logo="normal"> </div>
+            <div class="testimonial-name">
+               <h5>Vishal</h5>
+               <p>App Devloper</p>
+            </div>
+         </div>
+      </div>
+      <div class="testimonial">
+         <div class="testimonial-text"> If you are looking for an<br> institution that prioritizes <br>
+         academic excellence, fosters innovation,<br> and nurtures personal growth, look <br>
+        no further.This college is the<br> epitome of a transformative educational <br>
+         journey, and I am grateful to be a part of it 
+         </div>
+         <div class="testimonial-detail">
+            <div class="testimonial-img"> <img src="images/StudentAnimated.png" logo="normal"> </div>
+            <div class="testimonial-name">
+               <h5>Punit</h5>
+               <p>Graphic Designer</p>
+            </div>
+         </div>
+      </div>
+   </marquee>
+</div>
+<!---------- Testimonial HTML Ends --------->
+<!---------- Placement HTML Starts --------->
+<div class="main-section">
+   <h2 class="heading">Placement</h2>
+   <marquee class="placement" direction="left" scrollamount="10" style="height:200px;">
+      <img src="images/MNC1.jpg" class="normal" style="height:100px;"> 
+      <img src="images/MNC2.jpg" class="ch_n"style="height:100px; weight:100px;">  
+      <img src="images/MNC7.png" class="ch_n"style="height:100px;weight:100px;">  
+      <img src="images/MNC3.jpg" class="normal"style="height:100px;weight:100px;"> 
+      <img src="images/MNC4.jpg" class="ch_n"style="height:100px;weight:100px;"> 
+      <img src="images/MNC5.jpg" class="ch_n"style="height:100px;weight:100px;"> 
+      <img src="images/MNC6.jpg" class="normal"style="height:100px;weight:100px;"> 
+      <img src="images/MNC8.jpg" class="normal"style="height:100px;weight:100px;"> 
+   </marquee>
+</div>
+</div>
+<!---------- Placement HTML Ends --------->
+<!---------- Footer HTML Starts --------->
+<div class="footer">
+   <div class="container">
+      <div class="footer-sect">
+         <h2>Best Institute For Education</h2>
+         <p>The college's infrastructure and facilities are top-notch. The campus itself is stunning, with beautiful green spaces and state-of-the-art facilities that foster a conducive atmosphere for both academic pursuits and personal well-being..</p>
+
+      </div>
+      <div class="footer-sect">
+         <h2>Quick Links</h2>
+         <ul class="footer-menu">
+   <li> <a href="#">Home</a> </li>
+       <li><a href="/teachers">Teachers </a> </li>
+       <li><a href="/students">StutendsInfo</a> </li>
+       <li><a href="/students/new">New Admission</a></li> 
+      <li> <a href="#">Notice Board</a> </li>
+      <li> <a href="#">Events</a></li>
+      <li> <a href="#">Contact us</a> </li>
+         </ul>
+      </div>
+      <div class="footer-sect">
+         <h2>Contact Info</h2>
+         <ul class="footer-contact">
+            <li><b>Email :</b> Apnacollage@instituteeducation.com </li>
+            <li><b>Call :</b> +91 -199991223 456 7890 </li>
+            <li><b>Fax :</b> +91 -132142323 4567890 </li>
+            <li><b>Website :</b> https://www.ApnaCollage.com </li>
+         </ul>
+      </div>
+   </div>
+</div>
+</body>
+</html>
+<!---------- Footer HTML Ends --------->
